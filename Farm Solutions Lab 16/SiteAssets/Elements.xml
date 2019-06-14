@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="SiteAssets" Url="SiteAssets">
+    <File Path="SiteAssets\index.html" Url="index.html" Type="GhostableInLibrary" />
+    <File Path="SiteAssets\Index.js" Url="Index.js" Type="GhostableInLibrary" />
+    <File Path="SiteAssets\style.css" Url="style.css" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

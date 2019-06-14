@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link rel='stylesheet' type='text/css' href='/sites/students/siteassets/style.css'>
+    <script type='text/javascript' src='/sites/students/siteassets/Index.js'></script>
+</head>
+
+<body>
+    <div id='createStudentSite'>
+        <div>
+            <label>First Name:</label>
+            <input id='firstName' type='text'>
+        </div>
+
+        <div>
+            <label>Last Name:</label>
+            <input id='lastName' type='text' />
+        </div>
+
+        <div>
+            <button id='create' type='button' onclick='createSite(event)'>Create Site</button>
+        </div>
+
+        <div id='messages'>
+            <label id='loading'>Working hard ... please wait</label>
+            <label id='message'>Site has been successfully created at <a id='siteLink' href=''><span id='siteTitle'></span></a> using <span id='apiType'></span></label>
+        </div>
+    </div>
+</body>
+</html>
